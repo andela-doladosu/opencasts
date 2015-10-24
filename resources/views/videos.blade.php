@@ -9,6 +9,7 @@
 
     <div class="content">
         <div id="body">
+        <div class="logo text-center">Uploaded by you</div>
  @foreach($videos as $video)
               <div class="video_pane">
               <iframe src="{{ $video->url }}" class="v-frame" width="300" height="200"></iframe>
