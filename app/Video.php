@@ -1,6 +1,6 @@
 <?php
 
-namespace App;
+namespace opencasts;
 
 use Illuminate\Database\Eloquent\Model;
 
@@ -17,7 +17,7 @@ class Video extends Model
 
     protected function user()
     {
-        $this->belongsTo('App\User');
+        $this->belongsTo('opencasts\User');
     }
 
 }
