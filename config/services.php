@@ -33,6 +33,24 @@ return [
         'model'  => App\User::class,
         'key'    => env('STRIPE_KEY'),
         'secret' => env('STRIPE_SECRET'),
+    ], 
+
+    'github' => [
+        'client_id'     => 'd604149fbaac5ff400c4',
+        'client_secret' => 'bf6007d2391b416a6010bc0975de1ead598dd272',
+        'redirect'      => 'http://opencasts.com/auth/github', 
     ],
+
+    'twitter' => [
+        'client_id'     => 'elg92dXnzyBFoLstBCwfoV2vx',
+        'client_secret' => 'sQF0lGS704cUC8Rg62huXpwS0EHJs0pLV3g3YBmzHHb431tjxf',
+        'redirect'      => 'http://opencasts.com/auth/twitter', 
+    ],
+
+    'facebook' => [
+        'client_id'     => '481755195340146',
+        'client_secret' => 'd1905eaac9e97dec0972acb1463b8870',
+        'redirect'      => 'http://opencasts.com/auth/facebook', 
+    ]
 
 ];
