@@ -8,6 +8,7 @@
 @include('includes.editProfile')
 
 <img src=" {{ $user->avatar }}" id="img-update">
+</div> </div> </div>
 @endsection
 
 @if(session()->has('data'))

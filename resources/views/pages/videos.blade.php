@@ -18,13 +18,15 @@
 
                 <span class="description">
 
-                  <p class="title"><span class="title">{{ substr($video->title, 0, 20) }}</span></p>
-                                    <span class="description"> {{ $video->description }} </span>
+                  <p class="title"><span class="title" data-toggle="tooltip" title=" {{ $video->title }} ">{{ substr($video->title, 0, 20) }}</span></p>
+                                    <span class="description"  data-toggle="tooltip" title=" {{ $video->description }} "> {{ $video->description }} </span>
                   <span class="delete">x</span> 
                 </span>
               </div>
             </div>
             @endforeach
+            </div>
+</div>
 @endsection
 
 @section('footer')

@@ -23,13 +23,13 @@ class VideoController extends Controller
     protected function newVideo()
     {
         $user = Auth::user();
-        return view('new', compact('user'));
+        return view('pages.new', compact('user'));
     }
 
     public function added()
     {
         $user = Auth::user();
-        return view('new', compact('user'));
+        return view('pages.new', compact('user'));
     }
 
     protected function createVideo(Request $request)
@@ -49,7 +49,7 @@ class VideoController extends Controller
         $this->create($video);
 
         unset($video['owner'], $video['_token']);
-        return view('added', compact('user', 'video'));
+        return view('pages.added', compact('user', 'video'));
 
     }
 
@@ -76,7 +76,7 @@ class VideoController extends Controller
     {   
         $user = Auth::user();
         $video = Video::find($id);
-        return view('video', compact('user', 'video'));
+        return view('pages.video', compact('user', 'video'));
     }
 
     protected function personalVideos()
@@ -84,14 +84,14 @@ class VideoController extends Controller
         $user = Auth::user();
         $videos = Video::where('user_id', '=', $user->id)->get();
        
-        return view('videos', compact('user', 'videos'));
+        return view('pages.videos', compact('user', 'videos'));
     }
 
     protected function allVideos()
     {
         $user = Auth::user();
         $allVideos = Video::all();
-        return view('videos', compact('user', 'videos'));
+        return view('pages.videos', compact('user', 'videos'));
     }
 
     protected function categories()
@@ -102,7 +102,7 @@ class VideoController extends Controller
             ->select('category')
             ->groupBy('category')
             ->get();
-        return view('categories', compact('user', 'categories'));
+        return view('pages.categories', compact('user', 'categories'));
     }
 
     protected function category($category)
@@ -111,6 +111,6 @@ class VideoController extends Controller
         $user = Auth::user();
         $videos = Video::where('category', '=', $category)->get();
 
-        return view('category', compact('user', 'videos'));
+        return view('pages.category', compact('user', 'videos'));
     }
 }

@@ -15,6 +15,6 @@ class HomeController extends Controller
         $user = Auth::user();
         $videos = Video::all();
 
-        return view('home', compact('user', 'videos'));
+        return view('pages.home', compact('user', 'videos'));
     }
 }

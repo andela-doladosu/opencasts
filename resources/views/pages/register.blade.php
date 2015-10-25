@@ -1,5 +1,5 @@
 @extends('layouts.app')
-<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 <link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
 @section('nav')
 @include('includes.nav')
@@ -47,7 +47,7 @@
                 <button type="submit" class="login-button"><i class="fa fa-chevron-right"></i></button>
             </div>
             <div class="etc-login-form">
-                <p>already have an account? <a href="../login">login here</a></p>
+                <p>already have an account? <a href="/login">login here</a></p>
             </div>
         </form>
     </div>
@@ -57,6 +57,11 @@
 
                 @endif
 </div>
+</div>
+</div>
 @endsection
 
+@section('footer')
+@include('includes.footer')
+@endsection
 

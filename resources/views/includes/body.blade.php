@@ -4,7 +4,7 @@
         <div class="content">
           
           <div id="body">
-            <h3 id="heading">Get better at your favorite programming language today!</h3>
+            <h3 id="heading">Everyone's favourite youtube tutorials, in one place!</h3>
             @foreach($videos as $video)
               <div class="video_pane">
               <iframe src="{{ $video->url }}" class="v-frame" width="300" height="200"></iframe>
@@ -24,10 +24,4 @@
                        
           </div>
           
-          <footer>
-            
-          </footer>
-        </div>
-    </div>
-  </body>
-</html>
+</div>

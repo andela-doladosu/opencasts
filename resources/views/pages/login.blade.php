@@ -2,7 +2,7 @@
 
 
 @extends('layouts.app')
-<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 <link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
 @section('nav')
 @include('includes.nav')
@@ -35,15 +35,16 @@
                                     <input type="password" class="form-control" id="lg_password" name="password" placeholder="password">
                                 </div>
                                 <div class="form-group login-group-checkbox">
-                                    <input type="checkbox" id="lg_remember" name="lg_remember">
+                                    <input type="checkbox" id="lg_remember" name="remember">
                                     <label for="lg_remember">remember</label>
                                 </div>
                                 <input type="hidden" name="_token" id="csrf-token" value="{{ Session::token() }}" />
                             </div>
                             <button type="submit" class="login-button"><i class="fa fa-chevron-right"></i></button>
+
                         </div>
                         <div class="etc-login-form">
-                            <p>new user? <a href="../register">create new account</a></p>
+                            <p>new user? <a href="/register">create new account</a></p>
                         </div>
                     </form>
                 </div>
@@ -52,7 +53,7 @@
                 @include('includes.errors')
 
                 @endif
-                @endsection
+                
             </div>
         </div>
     </div>

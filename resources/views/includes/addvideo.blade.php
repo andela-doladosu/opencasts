@@ -1,7 +1,7 @@
 
 <div class="wrapper">
 
-    <div class="content">
+    <div class="content video-add-content">
         <div id="body">
 
 

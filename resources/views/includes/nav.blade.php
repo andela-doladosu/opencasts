@@ -16,7 +16,7 @@ src="{{ $user->avatar }}"  id="dropdownMenu1" data-toggle="dropdown" aria-haspop
   </ul>
 </div>          
 @else 
-          <a class="nav-link right" href="/login">Login</a> 
-          <a class="nav-link right" href="/register">Sign up</a>
+          <span class="auth-links"><a class="nav-link auth-link" href="/login">Login</a> 
+          <a class="nav-link auth-link" href="/register">Sign up</a></span>
           @endif      
         </div>

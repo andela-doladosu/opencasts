@@ -16,6 +16,7 @@
  <a href="/categories/{{ $category->category }}"> {{ $category->category }} </a>
 @endforeach
 </div>
+</div> </div> 
 @endsection
 
 @section('footer')
