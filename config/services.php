@@ -34,23 +34,20 @@ return [
         'key'    => env('STRIPE_KEY'),
         'secret' => env('STRIPE_SECRET'),
     ], 
-
-    'github' => [
-        'client_id'     => 'd604149fbaac5ff400c4',
-        'client_secret' => 'bf6007d2391b416a6010bc0975de1ead598dd272',
-        'redirect'      => 'http://opencasts.com/auth/github', 
+    'facebook' => [ 
+        'client_id' => env('FACEBOOK_ID', ''),
+        'client_secret' => env('FACEBOOK_SECRET', ''),
+        'redirect' => env('FACEBOOK_REDIRECT', '') 
     ],
-
-    'twitter' => [
-        'client_id'     => 'elg92dXnzyBFoLstBCwfoV2vx',
-        'client_secret' => 'sQF0lGS704cUC8Rg62huXpwS0EHJs0pLV3g3YBmzHHb431tjxf',
-        'redirect'      => 'http://opencasts.com/auth/twitter', 
+    'twitter' => [ 
+        'client_id' => env('TWITTER_ID', ''),
+        'client_secret' => env('TWITTER_SECRET', ''),
+        'redirect' => env('TWITTER_REDIRECT', '') 
     ],
-
-    'facebook' => [
-        'client_id'     => '481755195340146',
-        'client_secret' => 'd1905eaac9e97dec0972acb1463b8870',
-        'redirect'      => 'http://opencasts.com/auth/facebook', 
-    ]
-
+    'github' => [ 
+        'client_id' => env('GITHUB_ID', ''),
+        'client_secret' => env('GITHUB_SECRET', ''),
+        'redirect' => env('GITHUB_REDIRECT', '') 
+    ]  
+ 
 ];
