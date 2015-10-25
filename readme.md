@@ -66,4 +66,4 @@ Opencasts is being actively developed and maintained by Dara Oladosu
 
 ## License
 
-The MIT License (MIT). Please see [License File](license.md) for more information.
+The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
