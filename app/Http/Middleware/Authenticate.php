@@ -1,6 +1,6 @@
 <?php
 
-namespace opencasts\Http\Middleware;
+namespace Opencasts\Http\Middleware;
 
 use Closure;
 use Illuminate\Contracts\Auth\Guard;

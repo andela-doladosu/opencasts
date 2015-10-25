@@ -1,12 +1,12 @@
 <?php
 
-namespace opencasts\Http\Controllers;
+namespace Opencasts\Http\Controllers;
 
-use opencasts\Video;
-use opencasts\Http\Requests;
+use Opencasts\Video;
+use Opencasts\Http\Requests;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
-use opencasts\Http\Controllers\Controller;
+use Opencasts\Http\Controllers\Controller;
 
 class HomeController extends Controller
 {

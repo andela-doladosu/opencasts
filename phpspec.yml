@@ -1,5 +1,5 @@
 suites:
     main:
-        namespace: opencasts
-        psr4_prefix: opencasts
+        namespace: Opencasts
+        psr4_prefix: Opencasts
         src_path: app

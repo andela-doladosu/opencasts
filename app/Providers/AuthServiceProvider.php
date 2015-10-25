@@ -1,6 +1,6 @@
 <?php
 
-namespace opencasts\Providers;
+namespace Opencasts\Providers;
 
 use Illuminate\Contracts\Auth\Access\Gate as GateContract;
 use Illuminate\Foundation\Support\Providers\AuthServiceProvider as ServiceProvider;
@@ -13,7 +13,7 @@ class AuthServiceProvider extends ServiceProvider
      * @var array
      */
     protected $policies = [
-        'opencasts\Model' => 'opencasts\Policies\ModelPolicy',
+        'Opencasts\Model' => 'Opencasts\Policies\ModelPolicy',
     ];
 
     /**

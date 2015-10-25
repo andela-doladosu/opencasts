@@ -1,6 +1,6 @@
 <?php
 
-namespace opencasts\Providers;
+namespace Opencasts\Providers;
 
 use Illuminate\Contracts\Events\Dispatcher as DispatcherContract;
 use Illuminate\Foundation\Support\Providers\EventServiceProvider as ServiceProvider;
@@ -13,8 +13,8 @@ class EventServiceProvider extends ServiceProvider
      * @var array
      */
     protected $listen = [
-        'opencasts\Events\SomeEvent' => [
-            'opencasts\Listeners\EventListener',
+        'Opencasts\Events\SomeEvent' => [
+            'Opencasts\Listeners\EventListener',
         ],
     ];
 

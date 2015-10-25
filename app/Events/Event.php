@@ -1,6 +1,6 @@
 <?php
 
-namespace opencasts\Events;
+namespace Opencasts\Events;
 
 abstract class Event
 {

@@ -28,7 +28,7 @@ return [
     |
     */
 
-    'model' => opencasts\User::class,
+    'model' => Opencasts\User::class,
 
     /*
     |--------------------------------------------------------------------------

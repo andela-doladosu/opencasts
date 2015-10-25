@@ -1,14 +1,14 @@
 <?php
 
-namespace opencasts\Http\Controllers;
+namespace Opencasts\Http\Controllers;
 
 use DB;
-use opencasts\Video;
-use opencasts\Http\Requests;
+use Opencasts\Video;
+use Opencasts\Http\Requests;
 use Illuminate\Http\Request;
-use opencasts\Http\Middleware\Authenticate;
+use Opencasts\Http\Middleware\Authenticate;
 use Illuminate\Support\Facades\Auth;
-use opencasts\Http\Controllers\Controller;
+use Opencasts\Http\Controllers\Controller;
 
 class VideoController extends Controller
 {

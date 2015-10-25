@@ -145,10 +145,10 @@ return [
         /*
          * Application Service Providers...
          */
-        opencasts\Providers\AppServiceProvider::class,
-        opencasts\Providers\AuthServiceProvider::class,
-        opencasts\Providers\EventServiceProvider::class,
-        opencasts\Providers\RouteServiceProvider::class,
+        Opencasts\Providers\AppServiceProvider::class,
+        Opencasts\Providers\AuthServiceProvider::class,
+        Opencasts\Providers\EventServiceProvider::class,
+        Opencasts\Providers\RouteServiceProvider::class,
 
     ],
 

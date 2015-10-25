@@ -1,7 +1,7 @@
 {
-    "name": "laravel/laravel",
-    "description": "The Laravel Framework.",
-    "keywords": ["framework", "laravel"],
+    "name": "Dara/opencasts",
+    "description": "User contributed YouTube tutorial videos for programmers",
+    "keywords": ["video", "programming", "learn"],
     "license": "MIT",
     "type": "project",
     "require": {
@@ -22,7 +22,7 @@
             "database"
         ],
         "psr-4": {
-            "opencasts\\": "app/"
+            "Opencasts\\": "app/"
         }
     },
     "autoload-dev": {
@@ -33,7 +33,8 @@
     "scripts": {
         "post-install-cmd": [
             "php artisan clear-compiled",
-            "php artisan optimize"
+            "php artisan optimize",
+            "php artisan migrate --force"
         ],
         "pre-update-cmd": [
             "php artisan clear-compiled"

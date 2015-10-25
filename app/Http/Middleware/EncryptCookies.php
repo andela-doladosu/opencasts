@@ -1,6 +1,6 @@
 <?php
 
-namespace opencasts\Http\Middleware;
+namespace Opencasts\Http\Middleware;
 
 use Illuminate\Cookie\Middleware\EncryptCookies as BaseEncrypter;
 

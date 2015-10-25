@@ -1,12 +1,12 @@
 <?php
 
-namespace opencasts\Http\Controllers\Auth;
+namespace Opencasts\Http\Controllers\Auth;
 
-use opencasts\User;
+use Opencasts\User;
 use Validator;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
-use opencasts\Http\Controllers\Controller;
+use Opencasts\Http\Controllers\Controller;
 use Socialite;
 use Illuminate\Foundation\Auth\ThrottlesLogins;
 use Illuminate\Foundation\Auth\AuthenticatesAndRegistersUsers;

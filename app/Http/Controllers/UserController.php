@@ -1,13 +1,13 @@
 <?php
 
-namespace opencasts\Http\Controllers;
+namespace Opencasts\Http\Controllers;
 
 use Cloudder;
 use Illuminate\Http\Request;
-use opencasts\Http\Requests;
-use opencasts\Http\Middleware\Authenticate;
+use Opencasts\Http\Requests;
+use Opencasts\Http\Middleware\Authenticate;
 use Illuminate\Support\Facades\Auth;
-use opencasts\Http\Controllers\Controller;
+use Opencasts\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Input as Input;
 
 class UserController extends Controller

@@ -1,6 +1,6 @@
 <?php
 
-namespace opencasts\Console\Commands;
+namespace Opencasts\Console\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Foundation\Inspiring;

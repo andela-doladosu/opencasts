@@ -1,6 +1,6 @@
 <?php
 
-namespace opencasts\Http\Requests;
+namespace Opencasts\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 

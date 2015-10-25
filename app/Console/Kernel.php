@@ -1,6 +1,6 @@
 <?php
 
-namespace opencasts\Console;
+namespace Opencasts\Console;
 
 use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Foundation\Console\Kernel as ConsoleKernel;
@@ -13,7 +13,7 @@ class Kernel extends ConsoleKernel
      * @var array
      */
     protected $commands = [
-        \opencasts\Console\Commands\Inspire::class,
+        \Opencasts\Console\Commands\Inspire::class,
     ];
 
     /**

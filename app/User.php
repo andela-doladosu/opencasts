@@ -1,6 +1,6 @@
 <?php
 
-namespace opencasts;
+namespace Opencasts;
 
 use Illuminate\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Model;
@@ -39,6 +39,6 @@ class User extends Model implements AuthenticatableContract,
 
     protected function videos()
     {
-        $this->hasMany('opencasts\Video');
+        $this->hasMany('Opencasts\Video');
     }
 }

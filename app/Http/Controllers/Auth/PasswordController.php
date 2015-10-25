@@ -1,8 +1,8 @@
 <?php
 
-namespace opencasts\Http\Controllers\Auth;
+namespace Opencasts\Http\Controllers\Auth;
 
-use opencasts\Http\Controllers\Controller;
+use Opencasts\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\ResetsPasswords;
 
 class PasswordController extends Controller

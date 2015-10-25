@@ -1,6 +1,6 @@
 <?php
 
-namespace opencasts\Http\Controllers;
+namespace Opencasts\Http\Controllers;
 
 use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Routing\Controller as BaseController;

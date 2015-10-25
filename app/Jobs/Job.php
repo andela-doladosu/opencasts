@@ -1,6 +1,6 @@
 <?php
 
-namespace opencasts\Jobs;
+namespace Opencasts\Jobs;
 
 use Illuminate\Bus\Queueable;
 

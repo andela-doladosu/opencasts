@@ -1,6 +1,6 @@
 <?php
 
-namespace opencasts\Http;
+namespace Opencasts\Http;
 
 use Illuminate\Foundation\Http\Kernel as HttpKernel;
 
@@ -13,11 +13,11 @@ class Kernel extends HttpKernel
      */
     protected $middleware = [
         \Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode::class,
-        \opencasts\Http\Middleware\EncryptCookies::class,
+        \Opencasts\Http\Middleware\EncryptCookies::class,
         \Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse::class,
         \Illuminate\Session\Middleware\StartSession::class,
         \Illuminate\View\Middleware\ShareErrorsFromSession::class,
-        \opencasts\Http\Middleware\VerifyCsrfToken::class,
+        \Opencasts\Http\Middleware\VerifyCsrfToken::class,
     ];
 
     /**
@@ -26,8 +26,8 @@ class Kernel extends HttpKernel
      * @var array
      */
     protected $routeMiddleware = [
-        'auth' => \opencasts\Http\Middleware\Authenticate::class,
+        'auth' => \Opencasts\Http\Middleware\Authenticate::class,
         'auth.basic' => \Illuminate\Auth\Middleware\AuthenticateWithBasicAuth::class,
-        'guest' => \opencasts\Http\Middleware\RedirectIfAuthenticated::class,
+        'guest' => \Opencasts\Http\Middleware\RedirectIfAuthenticated::class,
     ];
 }

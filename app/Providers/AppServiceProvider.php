@@ -1,6 +1,6 @@
 <?php
 
-namespace opencasts\Providers;
+namespace Opencasts\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
