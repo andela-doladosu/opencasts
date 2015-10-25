@@ -22,6 +22,9 @@
                 <div class="logo">login</div>
                 <!-- Main Form -->
                 <div class="login-form-1">
+                <a href="/twitter"><i class="fa social-link fa-twitter fa-2x"></i></a>
+                <a href="/facebook"><i class="fa social-link fa-facebook fa-2x"></i></a>
+                <a href="/github"><i class="fa social-link fa-github fa-2x"></i></a>
                     <form id="login-form" method="post" class="text-left">
                         <div class="login-form-main-message"></div>
                         <div class="main-login-form">

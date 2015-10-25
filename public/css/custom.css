@@ -183,6 +183,14 @@ a:hover {
 
 }
 
+.social-link {
+  color: #133;
+}
+
+.social-link:hover {
+  color: #677;
+}
+
 #img-update {
     position: absolute;
     left:650px;

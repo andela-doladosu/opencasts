@@ -101,7 +101,7 @@ class AuthController extends Controller
 
     protected function login()
     {
-        return view('login');
+        return view('pages.login');
     }
 
     protected function createUser(Request $request)
@@ -157,7 +157,7 @@ class AuthController extends Controller
 
     protected function register()
     {
-        return view('register');
+        return view('pages.register');
     }
 
     protected function logout()
