@@ -5,7 +5,7 @@
 @endsection
 
 @section('body')
-@include('includes.addVideo')
+@include('includes.addvideo')
 @endsection
 
 @section('footer')

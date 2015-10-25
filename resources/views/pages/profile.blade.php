@@ -5,7 +5,7 @@
 @endsection
 
 @section('body')
-@include('includes.editProfile')
+@include('includes.editprofile')
 
 <img src=" {{ $user->avatar }}" id="img-update">
 </div> </div> </div>
