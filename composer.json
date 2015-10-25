@@ -1,7 +1,7 @@
 {
     "name": "Dara/opencasts",
     "description": "User contributed YouTube tutorial videos for programmers",
-    "keywords": ["video", "programming", "learn"],
+    "keywords": ["video", "programming", "learn", "developer"],
     "license": "MIT",
     "type": "project",
     "require": {
