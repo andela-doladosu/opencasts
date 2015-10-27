@@ -96,7 +96,13 @@ class VideoController extends Controller
 
     protected function categories()
     {
-        return view('pages.categories');
+        $user = Auth::user();
+
+        $categories = DB::table('videos')
+            ->select('category', DB::raw('count(*) as total'))
+            ->groupBy('category')
+            ->get();
+        return view('pages.categories', compact('user', 'categories'));
     }
 
     protected function category($category)
