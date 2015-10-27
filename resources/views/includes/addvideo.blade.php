@@ -20,17 +20,41 @@
 
      <div class="form-group">
         <label for="title">Description</label>
-        <input type="text" class="form-control" name="description" placeholder="Decription of video">
+        <textarea class="form-control" name="description" placeholder="Description of video"></textarea>
     </div>
 
     <div class="form-group">
         <label for="title">Category</label>
-        <input type="text" class="form-control" name="category" placeholder="Video category">
+        <select name="category" class="form-control">
+            <option value="PHP">
+                PHP
+            </option>
+            <option value="JAVA">
+                Java
+            </option>
+            <option value="Javascript">
+                Javascript
+            </option>
+            <option value="Laravel">
+                Laravel
+            </option>
+            <option value="Python">
+                Python
+            </option>
+            <option value="Android">
+                Android
+            </option>
+            <option value="Erlang">
+                Erlang
+            </option>
+
+
+        </select>
     </div>
 
     <input type="hidden" name="_token" id="csrf-token" value="{{ Session::token() }}" />
 
-<button type="submit" class="btn btn-large btn-success">Add video</button>
+<button type="submit" class="btn btn-large btn-success form-control">Add video</button>
 
 </form>
 
