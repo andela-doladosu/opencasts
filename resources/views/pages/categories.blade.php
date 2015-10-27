@@ -13,7 +13,7 @@
 
   <div class="text-center video-categories">
  @foreach($categories as $category)
- <a href="/categories/{{ $category->category }}"> {{ $category->category }} </a>
+ <a href="/categories/{{ $category->category }}"> {{ $category->category }} ({{$category->total}}) </a>
 @endforeach
 </div>
 </div> </div> 
