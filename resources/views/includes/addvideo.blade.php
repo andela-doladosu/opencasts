@@ -15,7 +15,7 @@
 
     <div class="form-group">
         <label for="title">Youtube link</label>
-        <input type="text" class="form-control" name="url" placeholder="Youtube link">
+        <input type="text" class="form-control" name="url" placeholder="e.g.: http://youtube.com/watch?v=jd8ueh3buew">
     </div>
 
      <div class="form-group">
