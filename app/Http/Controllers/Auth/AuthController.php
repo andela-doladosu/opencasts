@@ -178,6 +178,7 @@ class AuthController extends Controller
             'username' => $data['username'],
             'email' => $data['email'],
             'password' => bcrypt($data['password']),
+            'avatar' => 'https://res.cloudinary.com/dara/image/upload/v1445972236/o40hgrqmrmfgfkv99jnb.gif'
         ]);
     }
 }
