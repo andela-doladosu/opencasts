@@ -18,11 +18,6 @@
         <input type="email" class="form-control" name="email"  value="{{ $user->email }}"  placeholder="Email">
     </div>
 
-     <div class="form-group">
-        <label for="title">Password</label>
-        <input type="password" class="form-control" name="password" placeholder="password">
-    </div>
-
     <div class="form-group">
         <label for="title">Avatar</label>
         <input type="file" id="file" class="" name="avatar">
