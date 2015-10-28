@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/andela-doladosu/opencasts.svg)](https://travis-ci.org/andela-doladosu/opencasts)
+
 ## Opencasts
 
 Opencasts is an awesome stopover for developers around the world who fancy well curated YouTube tutorial videos.
