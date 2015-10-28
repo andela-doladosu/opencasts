@@ -33,9 +33,10 @@ class UserController extends Controller
 
         $user->email = $data['email'];
         $user->username = $data['username'];
+
         
         $user->save();
 
-        return redirect()->back()->with('user','data',['kkkm','kmkmk']);
+        return redirect()->back()->with('user')->with('data','Profile updated');
     }
 }

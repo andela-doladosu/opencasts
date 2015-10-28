@@ -18,6 +18,7 @@ class TestEditProfile extends TestCase
             ->type('yemisi@gmail.com', 'email')
             ->press('update')
 
+            ->see('Profile updated!')
             ->see('newusername')
             ->see('yemisi@gmail.com');
 
