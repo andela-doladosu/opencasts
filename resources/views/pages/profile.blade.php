@@ -8,12 +8,13 @@
 @include('includes.editprofile')
 
 <img src=" {{ $user->avatar }}" id="img-update">
+@if(session()->has('data'))
+<p class="logo">Profile updated!</p>
+@endif
 </div> </div> </div>
 @endsection
 
-@if(session()->has('data'))
-<p>Success!</p>
-@endif
+
 
 @section('footer')
 @include('includes.footer')
