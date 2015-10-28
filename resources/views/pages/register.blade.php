@@ -48,7 +48,7 @@
 
                     
                 </div>
-                <button type="submit" class="login-button"><i class="fa fa-chevron-right"></i></button>
+                <button type="submit" name="register" class="login-button"><i class="fa fa-chevron-right"></i></button>
             </div>
             <div class="etc-login-form">
                 <p>already have an account? <a href="/login">login here</a></p>

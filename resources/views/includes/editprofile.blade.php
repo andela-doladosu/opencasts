@@ -30,7 +30,7 @@
 
     <input type="hidden" name="_token" id="csrf-token" value="{{ Session::token() }}" />
 
-<button type="submit" class="btn btn-large btn-success">Save</button>
+<button type="submit" name="update" class="btn btn-large btn-success">Save</button>
 
 </form>
 

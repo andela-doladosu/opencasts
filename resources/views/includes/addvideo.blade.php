@@ -54,7 +54,7 @@
 
     <input type="hidden" name="_token" id="csrf-token" value="{{ Session::token() }}" />
 
-<button type="submit" class="btn btn-large btn-success form-control">Add video</button>
+<button type="submit" name="add" class="btn btn-large btn-success form-control">Add video</button>
 
 </form>
 

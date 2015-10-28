@@ -43,7 +43,7 @@
                                 </div>
                                 <input type="hidden" name="_token" id="csrf-token" value="{{ Session::token() }}" />
                             </div>
-                            <button type="submit" class="login-button"><i class="fa fa-chevron-right"></i></button>
+                            <button type="submit" name="login" class="login-button"><i class="fa fa-chevron-right"></i></button>
 
                         </div>
                         <div class="etc-login-form">
