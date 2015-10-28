@@ -6,8 +6,7 @@ use Illuminate\Foundation\Testing\DatabaseTransactions;
 
 class TestEditProfile extends TestCase
 {
-    use DatabaseMigrations;
-   
+       
     public function testEditProfileWorks()
     {
         $user = factory(\Opencasts\User::class)->create();

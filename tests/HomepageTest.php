@@ -7,7 +7,6 @@ use Illuminate\Foundation\Testing\DatabaseTransactions;
 class HomepageTest extends TestCase
 {
     
-    use DatabaseMigrations;
 
     /**
      * A basic functional test example.

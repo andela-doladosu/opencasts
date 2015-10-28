@@ -7,8 +7,7 @@ use Illuminate\Foundation\Testing\DatabaseTransactions;
 class AddvideoTest extends TestCase
 {
 
-    use DatabaseMigrations;
-
+    
     /**
      * A basic test example.
      *

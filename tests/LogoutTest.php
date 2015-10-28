@@ -7,7 +7,6 @@ use Illuminate\Foundation\Testing\DatabaseTransactions;
 
 class TestLogout extends TestCase
 {
-    use DatabaseMigrations;
     /**
      * A basic test example.
      *
